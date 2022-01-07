@@ -28,8 +28,8 @@ export class CreateUserUseCase{
         name: "Alou alou o bozo chegou",
         email: 'Equipe@bozo.com.br'
       },
-      subject: "Seja bem-vindo á plataforma",
-      body: "<p>você pode fazer login em nossa plataforma.</p>"
+      subject: `Seja bem-vindo ${data.name}` ,
+      body: `<p>Bem vindo ${data.name} você já pode fazer login em nossa plataforma.</p>`
     })
   }
 }
